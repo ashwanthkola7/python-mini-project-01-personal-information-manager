@@ -44,3 +44,18 @@ bmi = weight / (height ** 2)
 print("Height :", height, "m")
 print("Weight :", weight, "kg")
 print("BMI    :", bmi)
+
+# ==========================================
+# Salary Calculator
+# ==========================================
+
+basic_salary = 50000
+tax_rate = 12
+tax_amount = (tax_rate / 100) * basic_salary
+net_salary = basic_salary - tax_amount
+
+print("\n========== SALARY INFORMATION ==========")
+print("Basic Salary :", "₹", basic_salary)
+print("Tax Rate     :", tax_rate, "%")
+print("Tax Amount   :", "₹", tax_amount)
+print("Net Salary   :", "₹", net_salary)

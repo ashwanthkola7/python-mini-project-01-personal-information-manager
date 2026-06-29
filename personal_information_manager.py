@@ -76,10 +76,10 @@ print("Monthly Savings  :", "₹", monthly_savings)
 print("Yearly Savings   :", "₹", yearly_savings)
 
 # ==========================================
-# Savings Calculator
+# Student Grade Calculator
 # ==========================================
 
-mathematics = 85
+maths = 85
 science = 92
 english = 78
 social_studies = 88
@@ -88,13 +88,13 @@ computer_science = 95
 no_of_subjects = 5
 max_marks = 500
 
-total_marks = mathematics + science + english + social_studies + computer_science
+total_marks = maths + science + english + social_studies + computer_science
 average_marks = total_marks / no_of_subjects
 percentage = (total_marks / max_marks) * 100
 
 print("\n========== STUDENT GRADE INFORMATION ==========")
 
-print("Mathematics      :", mathematics)
+print("Mathematics      :", maths)
 print("Science          :", science)
 print("English          :", english)
 print("Social Studies   :", social_studies)

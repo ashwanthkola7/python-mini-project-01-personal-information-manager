@@ -59,3 +59,18 @@ print("Basic Salary :", "₹", basic_salary)
 print("Tax Rate     :", tax_rate, "%")
 print("Tax Amount   :", "₹", tax_amount)
 print("Net Salary   :", "₹", net_salary)
+
+# ==========================================
+# Savings Calculator
+# ==========================================
+
+monthly_income = 50000
+monthly_expenses = 32000
+monthly_savings = monthly_income - monthly_expenses
+yearly_savings = monthly_savings * 12
+
+print("\n========== SAVINGS INFORMATION ==========")
+print("Monthly Income   :", "₹", monthly_income)
+print("Monthly Expenses :", "₹", monthly_expenses)
+print("Monthly Savings  :", "₹", monthly_savings)
+print("Yearly Savings   :", "₹", yearly_savings)

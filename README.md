@@ -6,17 +6,32 @@ A beginner Python mini project created while learning Python.
 
 ## Features
 
-- Display personal information
-- Calculate age statistics
-- Calculate BMI
-- Calculate salary after tax
-- Calculate yearly savings
-- Calculate student percentage
+- Personal information
+- Age Calculator
+- BMI Calculator
+- Salary Calculator
+- Savings Calculator
+- Student Grade Calculator
 
-## Technologies
+## Technologies Used
 
 - Python
 - Git
+- GitHub
+
+## Project Structure
+
+```text
+Mini Project 01 - Personal Information Manager/
+│
+├── personal_information_manager.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── docs/
+├── assets/
+└── screenshots/
+```
 
 ## How to Run
 
@@ -27,12 +42,6 @@ python personal_information_manager.py
 
 ## `docs/notes.md`
 
-```markdown
-# Project Notes
+## Version
 
-This project will be improved after every Python chapter.
-
-Current Version:
-- Variables
-- Arithmetic Operators
-- print()
+Version 1.0

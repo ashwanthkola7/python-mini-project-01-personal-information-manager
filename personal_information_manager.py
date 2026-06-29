@@ -29,3 +29,18 @@ print("Age (Years)  :", age)
 print("Age (Months) :", age_in_months)
 print("Age (Days)   :", age_in_days)
 print("Age (Hours)  :", age_in_hours)
+
+# ==========================================
+# BMI Calculator
+# ==========================================
+
+print("\n========== HEALTH INFORMATION ==========")
+
+height = 1.75
+weight = 68
+
+bmi = weight / (height ** 2)
+
+print("Height :", height, "m")
+print("Weight :", weight, "kg")
+print("BMI    :", bmi)
